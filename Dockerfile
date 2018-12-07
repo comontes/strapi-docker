@@ -1,4 +1,4 @@
-FROM node:11.3.0-alpine
+FROM node:11.3.0
 
 LABEL maintainer="Luca Perret <perret.luca@gmail.com>" \
       org.label-schema.vendor="Strapi" \
