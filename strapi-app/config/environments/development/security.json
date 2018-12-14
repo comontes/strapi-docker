@@ -1,8 +1,8 @@
 {
   "csrf": {
     "enabled": false,
-    "key": "_csrf",
-    "secret": "_csrfSecret"
+    "key": "${process.env.CSRF_KEY || '_csrf'}",
+    "secret": "${process.env.CSRF_SECRET || '_csrfSecret'}"
   },
   "csp": {
     "enabled": false,
