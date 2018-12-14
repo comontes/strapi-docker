@@ -9,7 +9,7 @@ version: "3.7"
 
 services:
   app:
-    build: .
+    image: jujiyangasli/strapi-docker
     ports:
       - 1337:1337
     volumes:
