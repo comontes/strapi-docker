@@ -17,4 +17,4 @@ HEALTHCHECK --interval=15s --timeout=5s --start-period=30s \
       CMD node /usr/src/api/healthcheck.js
 
 ENTRYPOINT ["/opt/docker-entrypoint.sh"]
-COMMAND ["strapi", "start"]
+CMD ["strapi", "start"]
