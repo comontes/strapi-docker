@@ -1,5 +1,7 @@
 FROM node:11.1.0-alpine
 
+LABEL maintainer="Tri Rahmat Gunadi <him@jujiyangasli.com>"
+
 WORKDIR /api
 
 RUN echo "unsafe-perm = true" >> ~/.npmrc
@@ -12,9 +14,8 @@ RUN chmod +x /opt/docker-entrypoint.sh
 
 EXPOSE 1337
 
-COPY healthcheck.js ./
-HEALTHCHECK --interval=15s --timeout=5s --start-period=30s \
-      CMD node /usr/src/api/healthcheck.js
+COPY healthcheck.js /opt/healthcheck.js
+HEALTHCHECK --interval=15s --timeout=5s --start-period=30s CMD node /opt/healthcheck.js
 
 ENTRYPOINT ["/opt/docker-entrypoint.sh"]
 CMD ["strapi", "start"]

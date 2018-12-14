@@ -2,11 +2,11 @@
   "session": {
     "enabled": true,
     "client": "cookie",
-    "key": "strapi.sid",
-    "prefix": "strapi:sess:",
-    "secretKeys": ["mySecretKey1", "mySecretKey2"],
+    "key": "${process.env.SESSION_KEY || 'strapi.sid'}",
+    "prefix": "${process.env.SESSION_PREFIX || 'strapi:sess:'}",
+    "secretKeys": ["${process.env.SESSION_SECRET1 || 'mySecretKey1'}", "${process.env.SESSION_SECRET2 || 'mySecretKey2'}"],
     "httpOnly": true,
-    "maxAge": 86400000,
+    "maxAge": "${process.env.SESSION_MAXAGE || 86400000}",
     "overwrite": true,
     "signed": false,
     "rolling": false

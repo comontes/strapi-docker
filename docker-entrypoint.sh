@@ -1,13 +1,12 @@
 #!/bin/sh
 
+echo "current directory is: $PWD"
 
-if [ ! -d "$PWD/strapi-app" ]; then 
-  mkdir $PWD/strapi-app
+if [ ! -f "$PWD/package.json" ]; then 
+  echo "creating base directory"
+  cp -r /opt/strapi-app/* $PWD/
+  echo 'installing packages'
+  npm install
 fi
 
-if [ ! -f "$PWD/strapi-app/package.json" ]; then 
-  cp -r /opt/strapi-app $WORKDIR/strapi-app
-fi
-
-npm install --prefix ./strapi-app
 exec "$@"
