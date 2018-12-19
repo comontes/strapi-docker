@@ -6,7 +6,7 @@ if [ ! -f "$PWD/package.json" ]; then
   echo "creating base directory"
   cp -r /opt/strapi-app/* $PWD/
   echo 'installing packages'
-  npm install
 fi
 
+npm install
 exec "$@"
