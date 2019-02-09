@@ -1,12 +1,13 @@
 FROM node:11.1.0-alpine
 
-LABEL maintainer="Tri Rahmat Gunadi <him@jujiyangasli.com>"
+LABEL maintainer="Bilal Ahmed Janjua <bilal@janjua.me>"
+LABEL provider="Tri Rahmat Gunadi <him@jujiyangasli.com>"
 
 WORKDIR /api
 
 RUN echo "unsafe-perm = true" >> ~/.npmrc
 
-RUN npm install -g strapi@3.0.0-alpha.16
+RUN npm install -g strapi@3.0.0-alpha.23.1
 
 COPY strapi-app /opt/strapi-app
 COPY docker-entrypoint.sh /opt/docker-entrypoint.sh

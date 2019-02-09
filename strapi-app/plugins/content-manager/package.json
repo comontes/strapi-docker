@@ -1,27 +1,27 @@
 {
-  "_from": "strapi-plugin-content-manager@3.0.0-alpha.16",
-  "_id": "strapi-plugin-content-manager@3.0.0-alpha.16",
+  "_from": "strapi-plugin-content-manager@3.0.0-alpha.23.1",
+  "_id": "strapi-plugin-content-manager@3.0.0-alpha.23.1",
   "_inBundle": false,
-  "_integrity": "sha512-PaQlYtHn3UyD9+KW8S9GBEDfnKKQsY9krdU3NACALlNqtMfRf52nsqGSzrU8K8xBMW/ywm7NhM5Dr25FuwNsRQ==",
+  "_integrity": "sha512-SEj21QWtdVFOjfo/r4YWVN5YI5dzZglY5MESQOwqU80AGeXQYpuA9efOTmlRWFs4JxdQ/KATTOJn1111TP7E0Q==",
   "_location": "/strapi-plugin-content-manager",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "strapi-plugin-content-manager@3.0.0-alpha.16",
+    "raw": "strapi-plugin-content-manager@3.0.0-alpha.23.1",
     "name": "strapi-plugin-content-manager",
     "escapedName": "strapi-plugin-content-manager",
-    "rawSpec": "3.0.0-alpha.16",
+    "rawSpec": "3.0.0-alpha.23.1",
     "saveSpec": null,
-    "fetchSpec": "3.0.0-alpha.16"
+    "fetchSpec": "3.0.0-alpha.23.1"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-alpha.16.tgz",
-  "_shasum": "5b41cea55cf4df7bfcad8e388dae95720dd42d16",
-  "_spec": "strapi-plugin-content-manager@3.0.0-alpha.16",
-  "_where": "/usr/src/api/strapi-app",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.0-alpha.23.1.tgz",
+  "_shasum": "c2209809eb249cdff3eae0e9526b43ac6335da98",
+  "_spec": "strapi-plugin-content-manager@3.0.0-alpha.23.1",
+  "_where": "C:\\Users\\bilal\\Desktop\\WebP\\strapi-update",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -41,7 +41,7 @@
     "draft-js": "^0.10.5",
     "react-select": "^1.2.1",
     "showdown": "^1.8.6",
-    "strapi-helper-plugin": "3.0.0-alpha.16"
+    "strapi-helper-plugin": "3.0.0-alpha.23.1"
   },
   "engines": {
     "node": ">= 10.0.0",
@@ -67,7 +67,7 @@
     "build": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=production node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
     "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
     "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
-    "generate": "node ./node_modules/plop/plop.js --plopfile ./node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "generate": "node ./node_modules/strapi-helper-plugin/node_modules/plop --plopfile ./node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
     "preanalyze": "npm run analyze:clean",
     "prebuild": "npm run build:clean",
     "prepublishOnly": "IS_MONOREPO=true npm run build",
@@ -80,5 +80,5 @@
     "icon": "plug",
     "description": "content-manager.plugin.description"
   },
-  "version": "3.0.0-alpha.16"
+  "version": "3.0.0-alpha.23.1"
 }
