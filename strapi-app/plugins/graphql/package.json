@@ -1,6 +1,6 @@
 {
-  "_from": "strapi-plugin-graphql@3.0.0-alpha.23.1",
-  "_id": "strapi-plugin-graphql@3.0.0-alpha.23.1",
+  "_from": "strapi-plugin-graphql@3.0.0-alpha.24.1",
+  "_id": "strapi-plugin-graphql@3.0.0-alpha.24.1",
   "_inBundle": false,
   "_integrity": "sha512-qyuj39yJPETa4PZiFVfMew1R7wUmskUQHq/IcDKeqRlPZLE2+SqjLEoTjtvKbl6/umJq/kPbVpc7L4FE8bIP7A==",
   "_location": "/strapi-plugin-graphql",
@@ -8,19 +8,19 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "strapi-plugin-graphql@3.0.0-alpha.23.1",
+    "raw": "strapi-plugin-graphql@3.0.0-alpha.24.1",
     "name": "strapi-plugin-graphql",
     "escapedName": "strapi-plugin-graphql",
-    "rawSpec": "3.0.0-alpha.23.1",
+    "rawSpec": "3.0.0-alpha.24.1",
     "saveSpec": null,
-    "fetchSpec": "3.0.0-alpha.23.1"
+    "fetchSpec": "3.0.0-alpha.24.1"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.0.0-alpha.23.1.tgz",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.0.0-alpha.24.1.tgz",
   "_shasum": "e42a3a2a46e24ed1498480d8e6c5a7ccc8445f2a",
-  "_spec": "strapi-plugin-graphql@3.0.0-alpha.23.1",
+  "_spec": "strapi-plugin-graphql@3.0.0-alpha.24.1",
   "_where": "C:\\Users\\bilal\\Desktop\\WebP\\strapi-update",
   "author": {
     "name": "A Strapi developer"
@@ -37,7 +37,7 @@
     "graphql-type-datetime": "^0.2.2",
     "graphql-type-json": "^0.2.1",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-alpha.23.1"
+    "strapi-utils": "3.0.0-alpha.24.1"
   },
   "deprecated": false,
   "description": "This is the description of the plugin.",
@@ -70,5 +70,5 @@
     "icon": "plug",
     "description": "Description of graphql plugin."
   },
-  "version": "3.0.0-alpha.23.1"
+  "version": "3.0.0-alpha.24.1"
 }

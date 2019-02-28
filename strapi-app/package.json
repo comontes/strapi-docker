@@ -24,9 +24,9 @@
     "pg": "^7.7.1",
     "knex": "latest",
     "sqlite3": "4.0.6",
-    "strapi": "3.0.0-alpha.23.1",
-    "strapi-hook-bookshelf": "^3.0.0-alpha.23.1",
-    "strapi-hook-mongoose": "3.0.0-alpha.23.1"
+    "strapi": "3.0.0-alpha.24.1",
+    "strapi-hook-bookshelf": "^3.0.0-alpha.24.1",
+    "strapi-hook-mongoose": "3.0.0-alpha.24.1"
   },
   "author": {
     "name": "A Strapi developer",
