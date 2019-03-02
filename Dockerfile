@@ -7,7 +7,7 @@ WORKDIR /api
 
 RUN echo "unsafe-perm = true" >> ~/.npmrc
 
-RUN npm install -g strapi@3.0.0-alpha.24.1
+RUN npm install -g comontes/strapi@3.0.0-alpha.24.1
 
 COPY strapi-app /opt/strapi-app
 COPY docker-entrypoint.sh /opt/docker-entrypoint.sh
